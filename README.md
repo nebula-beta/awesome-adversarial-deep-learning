@@ -77,7 +77,7 @@
 
 ## Defense
 
-Network Ditillation
+### Network Ditillation
 
 - [Distillation as a defense to adversarial perturbations against deep neural networks](http://ieeexplore.ieee.org/abstract/document/7546524/) Papernot, Nicolas, et al.Security and Privacy (SP), 2016 IEEE Symposium on. IEEE, 2016.
 
