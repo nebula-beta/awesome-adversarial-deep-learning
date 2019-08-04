@@ -31,7 +31,7 @@
 * **FGSM :** [Explaining and harnessing adversarial examples](https://arxiv.org/abs/1412.6572). Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. ICLR(Poster) 2015. [[code](https://github.com/1Konny/FGSM), ]
 * **I-FGSM :**  [Adversarial examples in the physical world](https://arxiv.org/abs/1607.02533). Kurakin, Alexey, Ian Goodfellow, and Samy Bengio. ICLR(Workshop) 2017. [[code](https://github.com/1Konny/FGSM), ]
 * **MI-FGSM :** [Boosting Adversarial Attacks with Momentum](http://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html).  Dong Y , Liao F , Pang T , et al. CVPR 2017. [[poster](http://ml.cs.tsinghua.edu.cn/~yinpeng/poster/Attack-CVPR2018.pdf), [code]()]
-* **DI^2-FGSM/M-DI^2FGSM :**  [Improving Transferability of Adversarial Examples with Input Diversity](https://arxiv.org/abs/1803.06978). Xie, Cihang, et al. CVPR 2019. [[code](https://github.com/cihangxie/DI-2-FGSM), ]
+* **DI^2-FGSM and M-DI^2FGSM :**  [Improving Transferability of Adversarial Examples with Input Diversity](https://arxiv.org/abs/1803.06978). Xie, Cihang, et al. CVPR 2019. [[code](https://github.com/cihangxie/DI-2-FGSM), ]
 
 
 
