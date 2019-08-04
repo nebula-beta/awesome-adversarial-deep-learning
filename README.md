@@ -69,7 +69,6 @@
 - [Ground-Truth Adversarial Examples](https://arxiv.org/abs/1709.10207) Carlini, Nicholas, et al. arXiv preprint arXiv:1709.10207. 2017.
 - [Generating Natural Adversarial Examples](https://arxiv.org/abs/1710.11342) Zhao, Zhengli, Dheeru Dua, and Sameer Singh. arXiv preprint arXiv:1710.11342. 2017.
 - [Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples](https://arxiv.org/abs/1802.00420) Anish Athalye, Nicholas Carlini, David Wagner. arXiv preprint arXiv:1802.00420. 2018.
-- [Adversarial Attacks and Defences Competition](https://arxiv.org/abs/1804.00097) Alexey Kurakin, Ian Goodfellow, Samy Bengio, Yinpeng Dong, Fangzhou Liao, Ming Liang, Tianyu Pang, Jun Zhu, Xiaolin Hu, Cihang Xie, Jianyu Wang, Zhishuai Zhang, Zhou Ren, Alan Yuille, Sangxia Huang, Yao Zhao, Yuzhe Zhao, Zhonglin Han, Junjiajia Long, Yerkebulan Berdibekov, Takuya Akiba, Seiya Tokui, Motoki Abe. arXiv preprint arXiv:1802.00420. 2018.
 
 
 
