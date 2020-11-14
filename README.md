@@ -135,6 +135,7 @@
 
 ## ToolBox
 
+* [**adversarial.js**](https://github.com/kennysong/adversarial.js)
 * [**advertorch**](https://github.com/BorealisAI/advertorch)
 * [**foolbox**](https://github.com/bethgelab/foolbox)
 * [**cleverhans**](https://github.com/tensorflow/cleverhans)
