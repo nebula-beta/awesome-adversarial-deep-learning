@@ -18,7 +18,11 @@
 
 ## Survey
 
-* [A Taxonomy and Terminology of Adversarial Machine Learning](https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8269-draft.pdf)
+* [Draft NIST IR 8269 A Taxonomy and Terminology of Adversarial Machine Learning](https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8269-draft.pdf)
+
+* [ENISA Artificial Intelligence Cybersecurity Challenges](https://www.enisa.europa.eu/news/publications/artificial-intelligence-cybersecurity-challenges)
+
+* [ENISA Securing Machine Learning Algorithms](https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms)
 
 * [Adversarial Threat Landscape for Artificial-Intelligence Systems](https://atlas.mitre.org/)
 
