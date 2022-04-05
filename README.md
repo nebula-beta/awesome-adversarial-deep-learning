@@ -1,7 +1,7 @@
-[TOC]
+
 
 # Awesome Adversarial Examples for Deep Learning
-
+[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 
 ## Table of Contents
