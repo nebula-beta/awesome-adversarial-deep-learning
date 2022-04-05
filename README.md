@@ -18,7 +18,11 @@
 
 ## Survey
 
-[Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey](https://arxiv.org/abs/1801.00553)
+* [A Taxonomy and Terminology of Adversarial Machine Learning](https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8269-draft.pdf)
+
+* [Adversarial Threat Landscape for Artificial-Intelligence Systems](https://atlas.mitre.org/)
+
+* [Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey](https://arxiv.org/abs/1801.00553)
 
 
 
@@ -76,7 +80,7 @@
 
 ## Defense
 
-### Network Ditillation
+### Network Distillation
 
 - [Distillation as a defense to adversarial perturbations against deep neural networks](http://ieeexplore.ieee.org/abstract/document/7546524/) Papernot, Nicolas, et al.Security and Privacy (SP), 2016 IEEE Symposium on. IEEE, 2016.
 
@@ -128,8 +132,9 @@
 
 * [IJCAI-19 Alibaba Adversarial AI Challenge](https://tianchi.aliyun.com/markets/tianchi/ijcai19_en)
 * [GeekPwn CAAD 2019](http://www.geekpwn.org/zh/index.html)
-
-
+* [Positive Hack Days 2019: AI CTF](https://2019.phdays.com/en/program/contests/aI-ctf/)
+* [UTCTF 2019 (FaceSafe, Bot Protection IV tasks)](https://github.com/utisss/UTCTF-19)
+* [vishwaCTF21 (Good Driver Bad Driver task)](https://vishwactf.com/)
 
 
 
