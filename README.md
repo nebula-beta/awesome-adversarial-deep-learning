@@ -1,66 +1,48 @@
+# Awesome Adversarial Machine Learning [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
+A curated list of awesome AML attacks and defences frameworks and resources.
 
-# Awesome Adversarial Examples for Deep Learning
-[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+Also see [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning).
 
+## Contents
+- [Terminology](#terminology)
+- [Threat Modeling](#threat-modeling)
+- [Attacks based on method](#attack)
+- [Unsorted](#unsorted)
+- [Defenses](#defenses)
+- [Competitions](#competitions)
+- [Frameworks](#frameworks)
 
-## Table of Contents
+## Terminology
+* [NIST: A Taxonomy and Terminology of Adversarial Machine Learning](https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8269-draft.pdf)
 
-- [Survey](#Survey)
-- [Attack](#Attack)
-- [Defense](#Defense)
-- [Competition](#Competition)
-- [ToolBox](#ToolBox)
-
-
-
-
-
-## Survey
-
-* [Draft NIST IR 8269 A Taxonomy and Terminology of Adversarial Machine Learning](https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8269-draft.pdf)
-
-* [ENISA Artificial Intelligence Cybersecurity Challenges](https://www.enisa.europa.eu/news/publications/artificial-intelligence-cybersecurity-challenges)
-
-* [ENISA Securing Machine Learning Algorithms](https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms)
-
-* [Adversarial Threat Landscape for Artificial-Intelligence Systems](https://atlas.mitre.org/)
-
+## Threat Nodeling
+* [ENISA: Artificial Intelligence Cybersecurity Challenges](https://www.enisa.europa.eu/news/publications/artificial-intelligence-cybersecurity-challenges)
+* [MITRE: Adversarial Threat Landscape for Artificial-Intelligence Systems](https://atlas.mitre.org/)
+* [The Threat of Offensive AI to Organizations](https://arxiv.org/pdf/2106.15764.pdf)
 * [Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey](https://arxiv.org/abs/1801.00553)
 
+## Attacks based on method
+
+Relationships between attacks：
+
+<img src="./README.assert/relationship.png" width="50%" height="50%" align="right">
+
+* Gradient-based method
+  * [FGSM](https://arxiv.org/abs/1412.6572)
+  * [Box-constrained L-BFGS](https://arxiv.org/pdf/1312.6199.pdf)
+  * [I-FGSM](https://arxiv.org/abs/1607.02533)
+  * [MI-FGSM](http://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html)
+  * [DI^2-FGSM and M-DI^2FGSM](https://arxiv.org/abs/1803.06978)
+* [JSMA](https://ieeexplore.ieee.org/document/7467366)
+* [One Pixel Attack](https://ieeexplore.ieee.org/abstract/document/8601309/)
+* [DeepFool](https://arxiv.org/abs/1511.04599)
+* [C&W](https://ieeexplore.ieee.org/abstract/document/7958570)
+* [ATNs](https://arxiv.org/abs/1703.09387)
+* [UPSET and ANGRI](https://arxiv.org/abs/1707.01159)
 
 
-## Attack
-
-### Gradient-base method
-
-- **Box-constrained L-BFGS :** [Intriguing properties of neural networks](https://arxiv.org/pdf/1312.6199.pdf). Szegedy, Christian, et al. ICLR(Poster) 2014. [[blogs](https://www.cnblogs.com/lainey/p/8552422.html)]
-
-* **FGSM :** [Explaining and harnessing adversarial examples](https://arxiv.org/abs/1412.6572). Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. ICLR(Poster) 2015. [[code](https://github.com/1Konny/FGSM), ]
-* **I-FGSM :**  [Adversarial examples in the physical world](https://arxiv.org/abs/1607.02533). Kurakin, Alexey, Ian Goodfellow, and Samy Bengio. ICLR(Workshop) 2017. [[code](https://github.com/1Konny/FGSM), ]
-* **MI-FGSM :** [Boosting Adversarial Attacks with Momentum](http://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html).  Dong Y , Liao F , Pang T , et al. CVPR 2017. [[poster](http://ml.cs.tsinghua.edu.cn/~yinpeng/poster/Attack-CVPR2018.pdf), [code]()]
-* **DI^2-FGSM and M-DI^2FGSM :**  [Improving Transferability of Adversarial Examples with Input Diversity](https://arxiv.org/abs/1803.06978). Xie, Cihang, et al. CVPR 2019. [[code](https://github.com/cihangxie/DI-2-FGSM), ]
-
-
-
-**Relationships between above different attacks：**
-
-<img src="./README.assert/relationship.png" width="50%" height="50%">
-
-
-
-
-
-* **JSMA :** [The limitations of deep learning in adversarial settings](https://ieeexplore.ieee.org/document/7467366). Papernot, Nicolas, et al. (EuroS&P)*. IEEE, 2016.
-* **One Pixel Attack :** [One pixel attack for fooling deep neural networks](https://ieeexplore.ieee.org/abstract/document/8601309/).  J. Su, D. V. Vargas, S. Kouichi.  arXiv preprint arXiv:1710.08864, 2017.
-* **DeepFool :** [DeepFool: a simple and accurate method to fool deep neural networks](https://arxiv.org/abs/1511.04599). S. Moosavi-Dezfooli et al., CVPR 2016. 
-* **C&W :** [Towards Evaluating the Robustness of Neural Networks](https://ieeexplore.ieee.org/abstract/document/7958570).  N. Carlini, D. Wagner. arXiv preprint arXiv:1608.04644, 2016.
-* **ATNs :**[Adversarial Transformation Networks: Learning to Generate Adversarial Examples](https://arxiv.org/abs/1703.09387).  S. Baluja, I. Fischer. arXiv preprint arXiv:1703.09387, 2017.
-* **UPSET and ANGRI :**  [UPSET and ANGRI: Breaking High Performance Image Classifiers](https://arxiv.org/abs/1707.01159). Sarkar, A. Bansal, U. Mahbub, and R. Chellappa. arXiv preprint arXiv:1707.01159, 2017.
-
-
-
-
+## Unsorted
 
 - [Intriguing properties of neural networks](https://arxiv.org/pdf/1312.6199.pdf) Szegedy, Christian, et al.  arXiv preprint arXiv:1312.6199 (2013).
 - [Explaining and harnessing adversarial examples](https://arxiv.org/abs/1412.6572) Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. arXiv preprint arXiv:1412.6572 (2014).
@@ -78,11 +60,8 @@
 - [Generating Natural Adversarial Examples](https://arxiv.org/abs/1710.11342) Zhao, Zhengli, Dheeru Dua, and Sameer Singh. arXiv preprint arXiv:1710.11342. 2017.
 - [Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples](https://arxiv.org/abs/1802.00420) Anish Athalye, Nicholas Carlini, David Wagner. arXiv preprint arXiv:1802.00420. 2018.
 
-
-
-
-
-## Defense
+## Defenses
+* [ENISA: Securing Machine Learning Algorithms](https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms) - Systematized catalog of security controls. 
 
 ### Network Distillation
 
@@ -126,23 +105,18 @@
 - [Adversarial Example Defenses: Ensembles of Weak Defenses are not Strong](https://arxiv.org/abs/1706.04701) He, Warren, et al. 11th USENIX Workshop on Offensive Technologies (WOOT 17). (2017).
 - [Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods](https://arxiv.org/abs/1705.07263) Carlini, Nicholas, and David Wagner. AISec. 2017.
 
-
-
-## Competition
+## Competitions
 
 * [NIPS 2017: Defense Against Adversarial Attack](https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack/data)
 * [NIPS 2018 : Adversarial Vision Challenge](https://www.crowdai.org/challenges)
-* [GeekPwn CAAD 2018](http://2018.geekpwn.org/en/index.html#4).  [Winners](http://hof.geekpwn.org/caad/en/index2.html)
-
+* [GeekPwn CAAD 2018](http://2018.geekpwn.org/en/index.html#4).
 * [IJCAI-19 Alibaba Adversarial AI Challenge](https://tianchi.aliyun.com/markets/tianchi/ijcai19_en)
 * [GeekPwn CAAD 2019](http://www.geekpwn.org/zh/index.html)
 * [Positive Hack Days 2019: AI CTF](https://2019.phdays.com/en/program/contests/aI-ctf/)
 * [UTCTF 2019 (FaceSafe, Bot Protection IV tasks)](https://github.com/utisss/UTCTF-19)
 * [vishwaCTF21 (Good Driver Bad Driver task)](https://vishwactf.com/)
 
-
-
-## ToolBox
+## Frameworks
 
 * [**advertorch**](https://github.com/BorealisAI/advertorch)
 * [**foolbox**](https://github.com/bethgelab/foolbox)
