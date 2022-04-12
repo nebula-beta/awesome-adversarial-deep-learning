@@ -4,13 +4,14 @@ A curated list of awesome AML attacks and defences frameworks and resources.
 
 Also see [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning).
 
-- [Awesome Adversarial Machine Learning ![Awesome](https://awesome.re)](#awesome-adversarial-machine-learning-)
+- [Awesome Adversarial Machine Learning](#awesome-adversarial-machine-learning-)
   - [Terminology](#terminology)
   - [Threat Modeling](#threat-modeling)
   - [Controls Guidelines](#controls-guidelines)
   - [Case Studies](#case-studies)
   - [Attacks based on method](#attacks-based-on-method)
   - [Attacks based on domain](#attacks-based-on-domain)
+  - [Attacks based on strategy](#attacks-based-on-strategy)
   - [Defenses](#defenses)
   - [CTF and Hackathons](#ctf-and-hackathons)
   - [Frameworks](#frameworks)
@@ -29,6 +30,7 @@ Also see [awesome-machine-learning](https://github.com/josephmisiti/awesome-mach
 
 ## Case Studies
 * [MITRE reports on in-the-wild](https://github.com/mitre/advmlthreatmatrix/blob/master/pages/case-studies-page.md#case-studies-page)
+* [Avito fights content theft using adversarial noise](https://habr.com/ru/company/avito/blog/452142/)
 
 ## Attacks based on method
 * [JSMA](https://ieeexplore.ieee.org/document/7467366)
@@ -51,6 +53,29 @@ Relationships between attacks:
 ## Attacks based on domain
 * Computer Vision
 * Speech Recognition
+  * Model-specific research
+    * [Kaldi](https://github.com/lealeasch/adversarialattacks)
+    * [Lingvo](https://github.com/yaq007/cleverhans/tree/master/examples/adversarial_asr)
+    * [Deepspeech](https://arxiv.org/pdf/1801.01944)
+  * Approaches
+    * [Man-in-the-Elevator](https://www.usenix.org/sites/default/files/conference/protected-files/woot15_slides_vaidya.pdf)
+  * Noise hiding techniques
+    * [DolphinAttack](https://github.com/USSLab/DolphinAttack)
+    * [MPEG Compression](https://arxiv.org/pdf/1808.05665)
+
+## Attacks based on strategy
+* Information gathering
+  * [Membership inference](https://arxiv.org/pdf/1610.05820)
+  * [Deanonymization](https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf)
+  * [Model inversion](https://dl.acm.org/doi/10.1145/2810103.2813677)
+  * [Model stealing](https://arxiv.org/pdf/1805.02628)
+  * [Blind-spot detection](https://arxiv.org/pdf/1901.04684)
+  * [State prediction](https://ieeexplore.ieee.org/document/8716085)
+* Denial of Service
+  * [Poisoning DoS](https://arxiv.org/pdf/1708.08689.pdf)
+  * [Sponge examples](https://arxiv.org/pdf/2006.03463)
+
+
   
 ## Defenses
 
@@ -104,9 +129,9 @@ Relationships between attacks:
 * [vishwaCTF21 (Good Driver Bad Driver task)](https://vishwactf.com/)
 
 ## Frameworks
-
-* [**advertorch**](https://github.com/BorealisAI/advertorch)
+* [**adversarial-robustness-toolbox**](https://github.com/IBM/adversarial-robustness-toolbox)
 * [**foolbox**](https://github.com/bethgelab/foolbox)
 * [**cleverhans**](https://github.com/tensorflow/cleverhans)
 * [**Adversarial-Face-Attack**](https://github.com/ppwwyyxx/Adversarial-Face-Attack)
-* [**adversarial-robustness-toolbox**](https://github.com/IBM/adversarial-robustness-toolbox)
+* [**adversarial.js**](https://github.com/kennysong/adversarial.js)
+* [**advertorch**](https://github.com/BorealisAI/advertorch)
