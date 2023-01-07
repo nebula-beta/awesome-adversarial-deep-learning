@@ -49,8 +49,7 @@
 * **C&W :** [Towards Evaluating the Robustness of Neural Networks](https://ieeexplore.ieee.org/abstract/document/7958570).  N. Carlini, D. Wagner. arXiv preprint arXiv:1608.04644, 2016.
 * **ATNs :**[Adversarial Transformation Networks: Learning to Generate Adversarial Examples](https://arxiv.org/abs/1703.09387).  S. Baluja, I. Fischer. arXiv preprint arXiv:1703.09387, 2017.
 * **UPSET and ANGRI :**  [UPSET and ANGRI: Breaking High Performance Image Classifiers](https://arxiv.org/abs/1707.01159). Sarkar, A. Bansal, U. Mahbub, and R. Chellappa. arXiv preprint arXiv:1707.01159, 2017.
-
-
+* **U-Turn:** [U-turn: Crafting Adversarial Queries with Opposite-direction Features](https://zdzheng.xyz/files/IJCV_Retrieval_Robustness_CameraReady.pdf) Zhedong Zheng, Liang Zheng, Yi Yang, Fei Wu. IJCV 2022. [[Code]](https://github.com/layumi/U_turn)
 
 
 
